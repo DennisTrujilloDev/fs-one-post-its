@@ -1,0 +1,15 @@
+.secWelcome{
+  text-align: center;
+}
+body{
+  background-color: lightseagreen;
+  background-image: url('img/table.jpg');
+}
+.row{
+  background-color: yellow;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+}
+
+
