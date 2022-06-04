@@ -5,7 +5,7 @@ Use this digital post-it notes application to better organize your day!
 # <strong>How It's Made:</strong>
 <strong>Tech used</strong>: HTML, CSS, JavaScript, Node.js, MongoDB, Mongoose, Express
 
-The user fills out their note and submits it. This submission is sent as a request to the server. The details of their note is sent and stored to a database in MongoDB. Then, the server requests the data from the database, the data is sent as a response to the front-end so that the information can be rendered dyanmically through EJS.
+The submission of a post-it note, created by the user, is sent to the server, and later saved to a collection on MongoDB. Then, the server requests the data from the database, the data is sent as a response to the front-end so that the information can be rendered dyanmically through EJS.
 
 # <strong>Lesson Learned:</strong>
 
