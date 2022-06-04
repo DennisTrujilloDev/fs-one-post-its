@@ -1,29 +1,43 @@
 .secNotesMain{
   background-color: paleturquoise;
+  width: 70%;
+  margin: auto;
 }
 body{
   color: grey;
+  background-image: url('img/table.jpg');
 }
 *{
   color: black;
 }
 span{
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 label, input{
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 button{
-  font-size: 0.5rem;
+  font-size: 1rem;
   margin: 0.5rem;
 }
 li{
   list-style: none;
-  text-align: center;
-  border: 1px solid grey;
+  text-align: left;
+  border: 3px solid grey;
   margin: 1rem;
-  background-color: yellow;
+  background-color: lightcoral;
+  line-height: 2rem;
+  min-width: 150px;
+  max-width: 200px;
+  overflow-wrap: break-word;
 }
+#writeH, #right{
+  font-size: 2rem;
+}
+#right{
+  font-style: italic;
+}
+
 
 .secCreateNote{
 
@@ -32,9 +46,9 @@ li{
   max-width: fit-content;
 }
 ul{
-  background-color: lightgray;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
   margin: 0;
 }
